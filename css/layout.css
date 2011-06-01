@@ -1,0 +1,59 @@
+a{
+	outline: none; /* for Firefox */
+	hlbr:expression(this.onFocus=this.blur()); /* for IE */
+}
+#wrapper{
+	margin: 0 auto;
+	width: 970px;
+}
+
+#banner{
+	width: 970px;
+	height: 60px;
+	line-height: 50px;
+	padding: 0px;
+	/*background:url("../pic/NUVideo_logo.png") no-repeat 5px 5px;*/
+	margin-bottom: 10px;
+}
+
+#banner a{
+	text-decoration: none;
+}
+
+#banner img{
+	border: 0px;
+	float: left;
+	margin-right: 20px;
+}
+
+#contents{
+	width: 970px;
+}
+
+.top{
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#result{
+	float: left;
+	width: 640px;
+	margin: 0px 5px 0px 0px;
+	/*padding: 5px;*/
+}
+
+#info{
+	float: right;
+	width: 310px;
+	/*margin: 0px 0px 0px 5px;*/
+}
+.clear{
+	clear: both;
+	text-align: center;
+}
+
+#footer{
+	width: 970px;
+	padding: 5px;
+	text-align: center;
+}

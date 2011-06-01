@@ -1,0 +1,10 @@
+rm -f db/query_click_log/*.rec
+rm -f db/query_click_db/*.rec
+rm -f db/video_db/*.rec
+rm -f db/user_like_db/*.rec
+
+ls -al db/query_click_log/
+ls -al db/query_click_db/
+ls -al db/video_db/
+ls -al db/user_like_db/
+

@@ -1,0 +1,5 @@
+ls -al db/query_click_log/
+ls -al db/query_click_db/
+ls -al db/video_db/
+ls -al db/user_like_db/
+
